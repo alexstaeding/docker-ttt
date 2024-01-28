@@ -1,6 +1,6 @@
 FROM debian:12-slim as lgsm
 
-# Const \\ Overwrite Env \\ Configs possible \\ Configs needed 
+# Const \\ Overwrite Env \\ Configs possible \\ Configs needed
 # C.UTF-8 -> en_US.UTF-8
 ENV STEAM_PATH="/home/steam" \
 	SERVER_PATH="/home/steam/serverfiles" \
